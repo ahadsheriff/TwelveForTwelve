@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% set active_page = "index" %}
+
+{% block subtitle %}
+  Crowdfunding for everyone
+{% endblock %}
+
+{% block content %}
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+  <h1>Seahawks fans it's time to share your blessings</h1>
+  <p>TwelveForTwelve is an easy to use platform for growing and supporting funding for local individuals in need.
+      Use the power of community to make your dreams true. </p>
+</div>
+
+<h2>New Projects</h2>
+
+{% include '_projects.html' %}
+
+{% endblock content %}
